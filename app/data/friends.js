@@ -1,3 +1,5 @@
+// A JSON object Express will use as our "database" of friends
+
 var friends = [
 {
     name: "Tim Analytical",
@@ -33,5 +35,3 @@ var friends = [
 ];
 
 module.exports = friends;
-
-// $("#submit").on("click", function(){  });
