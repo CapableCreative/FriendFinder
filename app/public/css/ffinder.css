@@ -13,6 +13,8 @@ a{
 }
 .home-feature, .survey-feature {
     text-align: center;
+    background: #FFF;
+    border-radius: 7px;
 }
 .grey-box{
     background: #eaeaea;
@@ -66,4 +68,15 @@ footer a {
     color: #FFF;
     font-size: 1rem;
     font-weight: 400;
+}
+
+@media screen and (max-width: 1100px) {
+    .home-body {
+        background: none;
+        background-color: #000;;
+    }
+    .home-feature, .survey-feature {
+        box-shadow: 0px 0px 100px #090979;
+        border-radius: 30px;
+    }
 }
